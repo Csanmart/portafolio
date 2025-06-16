@@ -1,0 +1,14 @@
+.skill-card .years-info {
+  opacity: 0;
+  transition: opacity 2s ease;
+  font-size: 0.9rem;
+  color: gray;
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+  right: 0;
+}
+
+.skill-card:hover .years-info {
+  opacity: 1;
+}
